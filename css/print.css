@@ -1,0 +1,10 @@
+@media print {
+  body * { visibility: hidden; }
+  #exercise-detail-modal, #exercise-detail-modal * { visibility: visible; }
+  #exercise-detail-modal { position: absolute; left: 0; top: 0; width: 100%; height: auto; background: white; color: black; display: block !important; }
+  .modal-content { border: none; max-height: none; width: 100%; box-shadow: none; background: white; color: black; }
+  .modal-header { background: white; border-bottom: 2px solid #000; }
+  .btn-close, .modal-footer { display: none !important; }
+  .detail-grid { background: #f4f4f4; border: 1px solid #ddd; }
+  .detail-item strong, .detail-section h4 { color: #000; }
+}

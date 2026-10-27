@@ -1,0 +1,43 @@
+:root {
+  --color-bg: #121212;
+  --color-surface: #1e1e1e;
+  --color-surface-card: #252525;
+  --color-border: #333333;
+  --color-text: #ffffff;
+  --color-text-muted: #a0a0a0;
+  --color-primary: #e63946;
+  --color-primary-hover: #d62828;
+  --color-accent: #3a86ff;
+  --color-success: #2a9d8f;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --border-radius: 12px;
+  --transition-speed: 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
